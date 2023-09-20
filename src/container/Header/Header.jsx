@@ -10,7 +10,9 @@ const Header = () => (
       whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className='app__header-img'
-    ></motion.div>
+    >
+      <img src={images.avatar} alt='avatar' />
+    </motion.div>
 
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
