@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { images } from '../../constants';
 import './Navbar.scss';
 
-export const navList = ['home', 'about', 'skills', 'works', 'contact'];
+export const navList = ['home', 'about', 'skills', 'works', 'assignments'];
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+              {navList.map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}

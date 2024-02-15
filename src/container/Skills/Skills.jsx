@@ -47,8 +47,6 @@ const Skills = () => {
                 </div>
                 <p className='p-text'>{skill.name}</p>
               </div>
-
-              <p className='skills-item__desc'>{skill.description}</p>
             </motion.div>
           ))}
         </motion.div>
