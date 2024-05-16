@@ -7,7 +7,7 @@ import { urlFor } from '../../api/sanity';
 import './Work.scss';
 import { useSanityContext } from '../../context/SanityContext';
 
-const workCategory = ['Web App', 'React', 'All'];
+const workCategory = ['Web App', 'React', 'Nextjs', 'All'];
 
 const Work = () => {
   const { worksData } = useSanityContext();
