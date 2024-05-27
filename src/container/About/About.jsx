@@ -2,6 +2,7 @@ import React from 'react';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './About.scss';
 import githubImg from '../../assets/github.png';
+import velogImg from '../../assets/velog.png';
 
 const About = () => {
   return (
@@ -37,6 +38,12 @@ const About = () => {
             <img src={githubImg} alt='github' />
             <a href='https://github.com/zpdl95/' target='_blank'>
               https://github.com/zpdl95/
+            </a>
+          </div>
+          <div className='channel-info'>
+            <img src={velogImg} alt='github' />
+            <a href='https://velog.io/@zpdl95/posts' target='_blank'>
+              https://velog.io/@zpdl95/posts
             </a>
           </div>
         </div>
